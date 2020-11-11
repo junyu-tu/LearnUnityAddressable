@@ -47,7 +47,7 @@ MonoBehaviour:
       - m_Id: 489d7e4640ab23344a6117cee72fc317
         m_Value: ServerData/[BuildTarget]
       - m_Id: 0b08bfa11ec624848a63617ed2e5ca87
-        m_Value: http://localhost/[BuildTarget]
+        m_Value: http://[PrivateIpAddress_2]:[HostingServicePort]
     m_ProfileEntryNames:
     - m_Id: 4fbc765ce80729740a401e76eb658f78
       m_Name: BuildTarget
@@ -86,8 +86,32 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e4f4a3d0d7dfffb45b379150e76ca3f3, type: 2}
   m_ActiveProfileId: ac4055b7bb9097f46b1a8c7cc2899566
   m_HostingServicesManager:
-    m_HostingServiceInfos: []
+    m_HostingServiceInfos:
+    - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
+        Unity.Addressables.Editor
+      dataStore:
+        m_SerializedData:
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 54276
+          m_Key: HostingServicePort
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Library/com.unity.addressables/StreamingAssetsCopy/aa/Windows/StandaloneWindows64;ServerData/StandaloneWindows64
+          m_Key: ContentRoot
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Boolean
+          m_Data: True
+          m_Key: IsEnabled
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Local Hosting 1
+          m_Key: DescriptiveName
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 1
+          m_Key: InstanceId
     m_Settings: {fileID: 11400000}
-    m_NextInstanceId: 1
+    m_NextInstanceId: 2
     m_RegisteredServiceTypeRefs:
     - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
