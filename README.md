@@ -10,3 +10,5 @@ Demo3-LoadByAddressables
 Demo4-LoadByLabel
 
 Demo5-LoadByAsync
+
+Demo6-UsingHosting
