@@ -1,0 +1,17 @@
+Library/
+.idea/
+.vs/
+.vscode/
+Logs/
+obj/
+Temp/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
